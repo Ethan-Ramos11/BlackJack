@@ -1,6 +1,7 @@
+from termcolor import colored
+
+
 class Cards:
-    suit = ""
-    rank = 0
 
     def __init__(self, suit, rank):
         self.suit = suit
